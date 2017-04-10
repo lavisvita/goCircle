@@ -1,0 +1,27 @@
+*{
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+#right, #left {
+    cursor: pointer;
+    position: relative;
+    top: 41px;
+}
+
+#right {
+    left: 28px;
+}
+
+#left {
+    left: 0px;
+}
+
+#outside {
+    display: block;
+    background: #36bf55;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    transition: 0.5s;
+}
